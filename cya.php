@@ -67,6 +67,12 @@ if ($recaptcha->score >= 0.5) {
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
     curl_setopt($ch, CURLOPT_POST, true);
     curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
+
+    // Forward the client's IP address
+    curl_setopt($ch, CURLOPT_HTTPHEADER, array(
+    "X-Forwarded-For: " . $_SERVER['REMOTE_ADDR']
+    ));
+    
     $result = curl_exec($ch);
     curl_close($ch);
 
