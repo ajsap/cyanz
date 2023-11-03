@@ -1,3 +1,4 @@
+<?php
 /**
  * Footer template for CYA.NZ
  *
@@ -17,7 +18,7 @@
  *
  * Lovingly crafted in Auckland, New Zealand.
  */
-
+?>
 <footer class="footer mt-auto py-3">
     <div class="container text-center">
         <span class="text-muted">
