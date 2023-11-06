@@ -22,7 +22,7 @@
 <footer class="footer mt-auto py-3">
     <div class="container text-center">
         <span class="text-muted">
-            Copyright &copy; 2015-<?php echo date("Y"); ?>, CYA.NZ. All Rights Reserved<br />Lovingly made in Auckland, New Zealand
+            Copyright &copy;2015-<?php echo date("Y"); ?>, CYA.NZ. All Rights Reserved<br />Lovingly made in Auckland, New Zealand
         </span>
     </div>
 </footer>
