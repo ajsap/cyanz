@@ -11,7 +11,7 @@
  * @link https://cya.nz/
  * @copyright 2023 Andy Saputra
  * @license MIT License
- * @version 1.0
+ * @version 1.1
  *
  * @tested on PHP 7.4.33
  * @tested with YOURLS 1.9.2
@@ -31,6 +31,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Experience fast, secure, and easy-to-use URL shortening with CYA.NZ – your trusted New Zealand-based service that ensures swift link shortening with advanced spam protection. Ideal for enhancing your digital presence." />
     <title>Reliable URL Shortening Service - CYA.NZ</title>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://www.google.com/recaptcha/api.js?render=XXXXXX"></script>
